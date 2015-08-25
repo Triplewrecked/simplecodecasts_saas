@@ -1,12 +1,10 @@
 source 'https://rubygems.org'
 
-# Ruby gem added
-gem 'ruby', '= 2.0.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
-
 
 # Use postgresql as the database for production
 group :production do
@@ -38,6 +36,8 @@ gem 'sdoc', '0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+
+gem 'devise', '3.4.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
