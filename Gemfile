@@ -37,8 +37,7 @@ gem 'sdoc', '0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
-# Use heroku forward to bind $PORT and load files faster
-gem 'heroku-forward'
+
 
 # Use puma for web server
 gem 'puma'
