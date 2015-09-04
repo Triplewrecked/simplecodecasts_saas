@@ -1,6 +1,6 @@
 # This file is used by Rack-based servers to start the application.
 
-rrequire 'rubygems'
+require 'rubygems'
 require 'bundler'
 
 $stdout.sync = true
