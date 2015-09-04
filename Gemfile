@@ -44,7 +44,7 @@ gem 'spring',        group: :development
 gem 'heroku-forward', '~> 0.4.0'
 
 # Use puma for web server
-# gem 'puma'
+gem 'puma'
 
 # Use deviese for user auth
 gem 'devise', '3.4.1'
