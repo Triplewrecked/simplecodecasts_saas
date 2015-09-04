@@ -55,6 +55,7 @@ gem 'stripe', '1.16.1'
 # Use figaro to hide secret keys
 gem 'figaro', '1.0.0'
 
+ruby '2.2.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
 
