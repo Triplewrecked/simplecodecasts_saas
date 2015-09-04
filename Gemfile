@@ -40,11 +40,14 @@ gem 'spring',        group: :development
 # Use thin for web server 
   gem 'thin'  
 
+
+# Heroku for deploy
+gem 'heroku'
+
 # heroku forward web  binder
 gem 'heroku-forward', '~> 0.4.0'
 
-# Use puma for web server
-gem 'puma'
+
 
 # Use deviese for user auth
 gem 'devise', '3.4.1'
