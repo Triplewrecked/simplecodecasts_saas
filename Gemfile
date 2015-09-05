@@ -40,6 +40,7 @@ gem 'spring',        group: :development
 # Use thin for web server 
   gem 'thin'  
 
+gem 'rake', '~> 10.4.2'
 
 # Heroku for deploy
 gem 'heroku'
@@ -47,7 +48,8 @@ gem 'heroku'
 # heroku forward web  binder
 gem 'heroku-forward', '~> 0.4.0'
 
-
+# EventMachine based, async HTTP Request client
+gem 'em-http-request', '~> 1.1.2'
 
 # Use deviese for user auth
 gem 'devise', '3.4.1'
@@ -57,6 +59,15 @@ gem 'stripe', '1.16.1'
 
 # Use figaro to hide secret keys
 gem 'figaro', '1.0.0'
+
+# Use for web proxy
+gem 'unicorn', '~> 4.9.0'
+
+# Simple and opinionated helper for creating Rubygem projects on GitHub
+gem 'jeweler', '~> 2.0.1'
+
+# BDD for Ruby
+gem 'rspec', '~> 3.3.0'
 
 ruby '2.2.1'
 # Use ActiveModel has_secure_password
