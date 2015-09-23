@@ -38,7 +38,7 @@ gem 'sdoc', '0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # Use puma for web server
-gem "puma"
+# gem "puma"
 
 # Use thin for web server 
 # gem 'thin'  
@@ -71,7 +71,7 @@ gem 'jeweler', '~> 2.0.1'
 # BDD for Ruby
 gem 'rspec', '~> 3.3.0'
 
-ruby '2.2.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
 
