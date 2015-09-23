@@ -37,8 +37,11 @@ gem 'sdoc', '0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+# Use puma for web server
+gem "puma"
+
 # Use thin for web server 
-  gem 'thin'  
+# gem 'thin'  
 
 gem 'rake', '~> 10.4.2'
 
@@ -46,7 +49,7 @@ gem 'rake', '~> 10.4.2'
 gem 'heroku'
 
 # heroku forward web  binder
-gem 'heroku-forward', '~> 0.4.0'
+# gem 'heroku-forward', '~> 0.4.0'
 
 # EventMachine based, async HTTP Request client
 gem 'em-http-request', '~> 1.1.2'
@@ -60,8 +63,7 @@ gem 'stripe', '1.16.1'
 # Use figaro to hide secret keys
 gem 'figaro', '1.0.0'
 
-# Use for web proxy
-gem 'unicorn', '~> 4.9.0'
+
 
 # Simple and opinionated helper for creating Rubygem projects on GitHub
 gem 'jeweler', '~> 2.0.1'
@@ -80,5 +82,5 @@ ruby '2.2.1'
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+#gem 'debugger', group: [:development, :test]
 
