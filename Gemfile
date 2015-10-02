@@ -41,7 +41,7 @@ gem 'spring',        group: :development
 # gem "puma"
 
 # Use thin for web server 
-# gem 'thin'  
+gem 'thin', '~> 1.6.4' 
 
 gem 'rake', '~> 10.4.2'
 
