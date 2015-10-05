@@ -6,7 +6,7 @@ class ProfilesController < ApplicationController
     end
     
     def create
-        @user = User.find( params[:user_id])
+        @user = User.find( params[:user_id] )
         @profile = @user.build_profile(profile_params)
         
         if @profile.save
@@ -15,6 +15,11 @@ class ProfilesController < ApplicationController
         else
             render action: :new
         end
+    end
+    
+    def edit
+        @user = User.find( params[:user_id] )
+        @profile = @user.profile 
     end
     
     private
