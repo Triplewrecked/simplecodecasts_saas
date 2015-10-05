@@ -36,6 +36,8 @@ ActiveRecord::Schema.define(version: 20150916213001) do
     t.string  "phone_number"
     t.string  "contact_email"
     t.text    "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "users", force: true do |t|
