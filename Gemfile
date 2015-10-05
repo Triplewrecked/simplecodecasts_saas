@@ -71,6 +71,9 @@ gem 'jeweler', '~> 2.0.1'
 # BDD for Ruby
 gem 'rspec', '~> 3.3.0'
 
+# Use paperclip for image uplaods
+gem 'paperclip', '4.3.1'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
